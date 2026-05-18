@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Telegram Bot 配置
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8927658048:AAF8oDrwPdfl0XuBwRjFQd0VU6wd_PMtDnk")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
 CHANNEL_USERNAME = os.getenv("CHANNEL_USERNAME", "pk_oa")
 CHANNEL_URL = os.getenv("CHANNEL_URL", "https://t.me/pk_oa")
 
